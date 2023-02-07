@@ -1,0 +1,28 @@
+// Tác Giả
+INSERT INTO `tacgia` (`MaTG`, `TenTG`, `DiaChi`, `SDT`) VALUES ('ND01', 'Nguyễn Du', 'VietNam', '0803999999');
+
+// Thể Loại
+INSERT INTO `theloai` (`MaTL`, `TenTL`) VALUES ('TN', 'Sách Thiếu Nhi');
+INSERT INTO `theloai` (`MaTL`, `TenTL`) VALUES ('TL-TG', 'Tâm Lý-Tôn Giáo');
+INSERT INTO `theloai` (`MaTL`, `TenTL`) VALUES ('CT_PL', 'Chính Trị-Pháp Luật');
+INSERT INTO `theloai` (`MaTL`, `TenTL`) VALUES ('VHNT', 'Văn Học Nghệ Thuật');
+INSERT INTO `theloai` (`MaTL`, `TenTL`) VALUES ('T', 'Truyện');
+INSERT INTO `theloai` (`MaTL`, `TenTL`) VALUES ('TT', 'Tiểu Thuyết');
+
+// Nhà Cung Cấp
+INSERT INTO `nhacungcap` (`MaNCC`, `TenNCC`, `DiaChi`) VALUES ('KĐ', 'Kim Đồng', 'HN');
+INSERT INTO `nhacungcap` (`MaNCC`, `TenNCC`, `DiaChi`) VALUES ('PN', 'Phương Nam', 'HN');
+//Nhan Viên
+
+INSERT INTO `nhanvien` (`MaNV`, `Ho`, `Ten`, `SDT`, `Luong`) VALUES ('ND', 'Nguyễn Ngọc', 'Đức', '0378049798', '10000000');
+INSERT INTO `nhanvien` (`MaNV`, `Ho`, `Ten`, `SDT`, `Luong`) VALUES ('TL', 'Nguyễn Thị Thùy', 'Linh', '0123456789', '10000000');
+
+//Sách
+INSERT INTO `sach` (`MaSach`, `MaNXB`, `MaTG`, `MaTL`, `TenSach`, `NamXuatBan`, `SoLuong`, `DonGia`) VALUES ('TX01', '', 'ND01', 'VHNT', 'Thanh Xuân Của Tôi ', '2022', '100', '200000');
+INSERT INTO `sach` (`MaSach`, `MaNXB`, `MaTG`, `MaTL`, `TenSach`, `NamXuatBan`, `SoLuong`, `DonGia`) VALUES ('CD01', '', 'ND01', 'VHNT', 'Cánh Đồng Bất Tận ', '2022', '100', '200000');
+INSERT INTO `sach` (`MaSach`, `MaNXB`, `MaTG`, `MaTL`, `TenSach`, `NamXuatBan`, `SoLuong`, `DonGia`) VALUES ('TX01', '', 'ND01', 'VHNT', 'Thanh Xuân Của Tôi ', '2022', '100', '200000');
+INSERT INTO `sach` (`MaSach`, `MaNXB`, `MaTG`, `MaTL`, `TenSach`, `NamXuatBan`, `SoLuong`, `DonGia`) VALUES ('TX01', '', 'ND01', 'VHNT', 'Thanh Xuân Của Tôi ', '2022', '100', '200000');
+INSERT INTO `sach` (`MaSach`, `MaNXB`, `MaTG`, `MaTL`, `TenSach`, `NamXuatBan`, `SoLuong`, `DonGia`) VALUES ('TX01', '', 'ND01', 'VHNT', 'Thanh Xuân Của Tôi ', '2022', '100', '200000');
+INSERT INTO `sach` (`MaSach`, `MaNXB`, `MaTG`, `MaTL`, `TenSach`, `NamXuatBan`, `SoLuong`, `DonGia`) VALUES ('TX01', '', 'ND01', 'VHNT', 'Thanh Xuân Của Tôi ', '2022', '100', '200000');
+INSERT INTO `sach` (`MaSach`, `MaNXB`, `MaTG`, `MaTL`, `TenSach`, `NamXuatBan`, `SoLuong`, `DonGia`) VALUES ('TX01', '', 'ND01', 'VHNT', 'Thanh Xuân Của Tôi ', '2022', '100', '200000');
+INSERT INTO `sach` (`MaSach`, `MaNXB`, `MaTG`, `MaTL`, `TenSach`, `NamXuatBan`, `SoLuong`, `DonGia`) VALUES ('TX01', '', 'ND01', 'VHNT', 'Thanh Xuân Của Tôi ', '2022', '100', '200000');
